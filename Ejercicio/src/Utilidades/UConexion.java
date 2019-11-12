@@ -29,6 +29,7 @@ public class UConexion {
 	public static void cerrarConexion(){
 		try {
 			conect.close();
+			conect = null;
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}

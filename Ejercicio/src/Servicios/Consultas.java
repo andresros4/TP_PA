@@ -57,7 +57,6 @@ public class Consultas {
 			e.printStackTrace();
 		}
 
-		// falta cerrar la conexion
 	}
 
 
